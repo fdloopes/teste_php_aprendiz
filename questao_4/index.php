@@ -46,6 +46,10 @@
       echo $ret;
       echo "<br/>";
 
+      for($i = 0, $i < 4, $i++){
+        echo $i;
+      }
+
      ?>
   </body>
 </html>
