@@ -2,6 +2,8 @@
 
 - Este repositório é destinado para armazenar as resoluções dos desafios propostos.
 
+> - Obs: Para executar as soluções em PHP é necessário um servidor web(apache) local.
+
 <h2>Questão 4</h2>
 
 - Realizar validações de variáveis em PHP
@@ -33,5 +35,3 @@
 - c) O método preencherDados dentro de Usuario deve chamar função setNivel da classe Permissao para definir o nivel do usuário;
 - d) O método cadastrar dentro de Usuario só deve ser executado se os atributos nome, telefone e nivel estiverem preenchidos, caso contrario deve retornar uma exceção informando os campos não preenchidos. Ao executar o método cadastrar o atributo data_cadastro deve ser preenchido com a data e hora atuais;
 - e) Após realizar a execucação dos métodos preencherDados e cadastrar é necessário exibir na tela os dados cadastrados(nome, telefone, nivel, data cadastro).
-
-> - Obs: Para executar as soluções em PHP é necessário um servidor web(apache) local.
