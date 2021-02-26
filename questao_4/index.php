@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Teste aprendiz</title>
+    <title>Teste tecnico - Questao 4</title>
   </head>
   <body>
     <?php
@@ -45,10 +45,6 @@
       $ret = isset($variavel) ? (!empty($variavel) ? (is_string($variavel) ? "Variavel existe, tem valor e é uma string" : "Variavel existe, tem valor, mas nao é string") : "Variavel existe e nao tem valor" ) : "Variavel nao existe";
       echo $ret;
       echo "<br/>";
-
-      for($i = 0, $i < 4, $i++){
-        echo $i;
-      }
 
      ?>
   </body>
